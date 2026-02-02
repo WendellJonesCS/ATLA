@@ -2,4 +2,5 @@ CREATE TABLE votes (
 -    id INT AUTO_INCREMENT PRIMARY KEY,
     character_name VARCHAR(100),
     vote_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
 );
